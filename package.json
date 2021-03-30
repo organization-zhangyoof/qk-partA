@@ -1,9 +1,9 @@
 {
-    "name": "qk-partA",
+    "name": "qk-parta",
     "displayName": "乾坤子应用A",
     "private": true,
     "scripts": {
-        "start": "umi dev",
+        "start": "cross-env PORT=9001 umi dev",
         "build": "umi build",
         "postinstall": "umi generate tmp",
         "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
@@ -24,6 +24,7 @@
     "dependencies": {
         "@umijs/preset-react": "1.x",
         "antd": "3.26.20",
+        "cross-env": "^7.0.3",
         "react": "^16.8.6",
         "react-dom": "^16.13.1",
         "umi": "^3.3.10",

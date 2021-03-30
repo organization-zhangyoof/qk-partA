@@ -6,7 +6,7 @@ const routes = [
     {
         exact: true,
         path: '/',
-        redirect: '/qk-part3-home1'
+        redirect: '/qk-parta-home1'
     },
     {
         path: '/',
