@@ -3,9 +3,9 @@ import Basis from '@/pages/basis/Basis'
 class BasicLayout extends Component {
     render(){
         return (
-                <Basis>
-                    {this.props.children}
-                </Basis>
+                // <Basis>
+                    this.props.children
+                // </Basis>
         )
     }
 }
